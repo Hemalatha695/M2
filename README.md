@@ -13,6 +13,7 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -36,13 +37,14 @@ int main() {
     printf("\n"); // newline for clean output
     return 0;
 }
-
+```
 ## OUTPUT:
+```
 Enter the starting value M: 10
 Enter the ending value N: 20
 Even numbers from 10 to 20 are:
 10 12 14 16 18 20
-
+```
 ## RESULT:
 Thus the program to print even numbers ranging from M to N (including M and N values) has been executed successfully
  
@@ -64,6 +66,7 @@ Write a C program to print the given triangular pattern using loop.
 5.	Continue the loop until you have printed the entire triangular pattern.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -84,7 +87,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 ## OUTPUT:
 Enter the number of rows: 5
@@ -120,6 +123,7 @@ Write a C program to perform addition and subtraction of two numbers using funct
 4.	Call the addition and subtraction functions, passing the two numbers as arguments.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 // Step 1: Declare functions
@@ -150,13 +154,14 @@ void subtract(int a, int b) {
     int diff = a - b;
     printf("Subtraction of %d and %d is: %d\n", a, b, diff);
 }
-
+```
 
 ## OUTPUT:
+```
 Enter two numbers: 15 8
 Addition of 15 and 8 is: 23
 Subtraction of 15 and 8 is: 7
-
+```
 ## RESULT:
 
 Thus the program to perform addition and subtraction of two numbers using functions has been executed successfully
@@ -180,6 +185,7 @@ Write a c program to find the sum of odd digits using for loop
 6.	Print the sum of odd digits.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -203,12 +209,13 @@ int main() {
 
     return 0;
 }
-
+```
 
 ## OUTPUT:
+```
 Enter a number: 54879
 Sum of odd digits = 21
-
+```
 
 
 
@@ -235,6 +242,7 @@ d.	After the loop, print the factorial value.
 5.	End
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 // Step 2: Declare the function
@@ -269,12 +277,13 @@ void fact() {
     // Step 4d: Print result
     printf("Factorial of %d is: %lld\n", N, factorial);
 }
-
+```
 
 ## OUTPUT:
+```
 Enter a positive integer: 5
 Factorial of 5 is: 120
-
+```
 ## RESULT:
 The program correctly computes the factorial of a given number using a separate function and displays the result.
  
