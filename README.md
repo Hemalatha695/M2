@@ -24,8 +24,10 @@ int main() {
     printf("Enter the ending value N: ");
     scanf("%d", &N);
     printf("Even numbers from %d to %d are:\n", M, N);
-    for (int i = M; i <= N; i++) {
-        if (i % 2 == 0) {
+    for (int i = M; i <= N; i++)
+    {
+        if (i % 2 == 0)
+       {
             printf("%d ", i);
         }
     }
@@ -36,12 +38,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-```
-Enter the starting value M: 10
-Enter the ending value N: 20
-Even numbers from 10 to 20 are:
-10 12 14 16 18 20
-```
+![image](https://github.com/user-attachments/assets/57627fee-85b3-422f-b5d5-17b460175a32)
+
 ## RESULT:
 Thus the program to print even numbers ranging from M to N (including M and N values) has been executed successfully
  
@@ -83,14 +81,8 @@ int main() {
 ```
 
 ## OUTPUT:
-Enter the number of rows: 5
-```
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-```
+![image](https://github.com/user-attachments/assets/25a529bf-aaed-4ed9-ab6d-0be02704956f)
+
 
 
 
@@ -143,11 +135,8 @@ void subtract(int a, int b) {
 ```
 
 ## OUTPUT:
-```
-Enter two numbers: 15 8
-Addition of 15 and 8 is: 23
-Subtraction of 15 and 8 is: 7
-```
+![image](https://github.com/user-attachments/assets/401f53d7-2723-4eb4-b586-a4eb4a46dbaf)
+
 ## RESULT:
 
 Thus the program to perform addition and subtraction of two numbers using functions has been executed successfully
@@ -193,12 +182,7 @@ int main() {
 ```
 
 ## OUTPUT:
-```
-Enter a number: 54879
-Sum of odd digits = 21
-```
-
-
+![image](https://github.com/user-attachments/assets/9a49162a-3c9b-4fc9-a086-f5677771bc13)
 
 ## RESULT:
 
@@ -255,10 +239,8 @@ void fact() {
 ```
 
 ## OUTPUT:
-```
-Enter a positive integer: 5
-Factorial of 5 is: 120
-```
+![image](https://github.com/user-attachments/assets/82aa0745-0dfb-43b4-931b-d6192c187939)
+
 ## RESULT:
 The program correctly computes the factorial of a given number using a separate function and displays the result.
  
